@@ -2,11 +2,11 @@ import { test } from "node:test";
 import assert from "node:assert";
 
 import {
-  add,
-  subtract,
-  multiply,
-  divide,
-  isEven
+    add,
+    subtract,
+    multiply,
+    divide,
+    isEven
 } from "./calculator.js";
 
 
