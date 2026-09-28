@@ -15,3 +15,18 @@ test("add laskee kaksi lukua yhteen", () => {
 
   assert.strictEqual(result, 5);
 });
+
+test("subtract vähentää kaksi lukua", () => {
+  const result = subtract(10, 4);
+  assert.strictEqual(result, 6);
+});
+
+test("multiply kertoo kaksi lukua", () => {
+  const result = multiply(5, 4);
+  assert.strictEqual(result, 20);
+});
+
+test("divide jakaa kaksi lukua", () => {
+  const result = divide(10, 2);
+  assert.strictEqual(result, 5);
+});
